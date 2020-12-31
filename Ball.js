@@ -3,7 +3,7 @@ class Ball{
         var options = {
          isStatic:false,
          restitution:0.5,  
-         density:10,
+         density:1,
          frictionAir:0.005
         }
         this.body = Bodies.rectangle(x,y,width,height,options);
